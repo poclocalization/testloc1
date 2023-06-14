@@ -13,6 +13,8 @@
 		14FC37DB2A39CDA400287677 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14FC37D92A39CDA400287677 /* Main.storyboard */; };
 		14FC37DD2A39CDA500287677 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14FC37DC2A39CDA500287677 /* Assets.xcassets */; };
 		14FC37E02A39CDA500287677 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14FC37DE2A39CDA500287677 /* LaunchScreen.storyboard */; };
+		14FC37EA2A39D34600287677 /* LocalizableAR.strings in Resources */ = {isa = PBXBuildFile; fileRef = 14FC37E92A39D34600287677 /* LocalizableAR.strings */; };
+		14FC37EC2A39D35900287677 /* LocalizableEn.strings in Resources */ = {isa = PBXBuildFile; fileRef = 14FC37EB2A39D35900287677 /* LocalizableEn.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		14FC37DC2A39CDA500287677 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14FC37DF2A39CDA500287677 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14FC37E12A39CDA500287677 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14FC37E92A39D34600287677 /* LocalizableAR.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = LocalizableAR.strings; sourceTree = "<group>"; };
+		14FC37EB2A39D35900287677 /* LocalizableEn.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = LocalizableEn.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,8 @@
 		14FC37C72A39CDA400287677 = {
 			isa = PBXGroup;
 			children = (
+				14FC37EB2A39D35900287677 /* LocalizableEn.strings */,
+				14FC37E92A39D34600287677 /* LocalizableAR.strings */,
 				14FC37D22A39CDA400287677 /* POCstc */,
 				14FC37D12A39CDA400287677 /* Products */,
 			);
@@ -127,7 +133,9 @@
 			files = (
 				14FC37E02A39CDA500287677 /* LaunchScreen.storyboard in Resources */,
 				14FC37DD2A39CDA500287677 /* Assets.xcassets in Resources */,
+				14FC37EA2A39D34600287677 /* LocalizableAR.strings in Resources */,
 				14FC37DB2A39CDA400287677 /* Main.storyboard in Resources */,
+				14FC37EC2A39D35900287677 /* LocalizableEn.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
